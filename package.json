@@ -1,0 +1,33 @@
+{
+  "name": "garethpn.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garethpn/garethpn.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garethpn/garethpn.github.io/issues"
+  },
+  "homepage": "https://github.com/garethpn/garethpn.github.io#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.17.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "file-loader": "^4.0.0",
+    "url-loader": "^2.0.0"
+  }
+}
