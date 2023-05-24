@@ -1,37 +1,50 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css">
+<!DOCTYPE html>
+<html lang="en">
 
-<style>
-    .my-card__media {
-        /* background-image: url("pretty.jpg"); */
-        background-color: green;
-    }
-</style>
+    <style>
+        .my-card__media {
+            /* background-image: url("pretty.jpg"); */
+            background-color: green;
+        }
+    </style>
 
-<head>
-    <title>Sniper's Links</title>
-</head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Sniper's Links</title>
 
-<div class="mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-            Header text
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+
+    <body>
+        <div class="mdl-layout mdl-js-layout">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    Header text
+                </div>
+            </header>
+            <main class="mdl-layout__content">
+                <p>Hello world!</p>
+                <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                    <div class="mdc-card__media-content">Title</div>
+                </div>
+                <footer class="mdl-mini-footer">
+                    <div class="mdl-mini-footer__left-section">
+                        <div class="mdl-logo">Left footer txt</div>
+                    </div>
+                    <div class="mdl-mini-footer__right-section">
+                        <div class="mdl-logo">Right footer txt</div>
+                    </div>
+                </footer>
+            </main>
         </div>
-    </header>
-    <main class="mdl-layout__content">
-        <p>Hello world!</p>
-        <div class="my-card__media mdc-card__media mdc-card__media--16-9">
-            <div class="mdc-card__media-content">Title</div>
-        </div>
-        <footer class="mdl-mini-footer">
-            <div class="mdl-mini-footer__left-section">
-                <div class="mdl-logo">Left footer txt</div>
-            </div>
-            <div class="mdl-mini-footer__right-section">
-                <div class="mdl-logo">Right footer txt</div>
-            </div>
-        </footer>
-    </main>
-</div>
 
-<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+    </body>
+    
+</html>
