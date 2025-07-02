@@ -18,6 +18,12 @@ body {
 
 }
 
+.my-logo {
+    width: 200px; /* Limit the logo width */
+    height: auto; /* Maintain aspect ratio */
+    padding-top: 10px; /* Add some padding at the top */
+}
+
 /* Footer styling */
 #footer {
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
